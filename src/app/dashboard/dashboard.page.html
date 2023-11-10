@@ -1,0 +1,79 @@
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar color="success">
+        <ion-title>Menu Content</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content color="success" class="ion-padding">
+      <ion-button [routerLink]="['/home']" expand="block" shape="round">
+        Click me
+      </ion-button>
+    </ion-content>
+  </ion-menu>
+
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar color="secondary">
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+
+        <ion-icon name="language" slot="end" size="large"></ion-icon>
+        <ion-icon name="notifications" size="large" slot="end" class="ion-margin"></ion-icon>
+
+      </ion-toolbar>
+    </ion-header>
+    <ion-content color="secondary" class="ion-padding">
+      <ion-img
+      src="https://docs-demo.ionic.io/assets/madison.jpg"
+      alt="The Wisconsin State Capitol building in Madison, WI at night"
+      ></ion-img>
+
+       <ion-grid class="ion-padding">
+
+        <ion-row>
+          <ion-col>
+            <div class="circle"></div>
+          </ion-col>
+          <ion-col>
+            <div class="circle"></div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <p style="font-size: medium; font-weight: 600; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores atque suscipit minima ipsa officiis obcaecati at, accusantium porro, deleniti sed soluta exercitationem voluptatem asperiores ipsam quasi reiciendis debitis eos nesciunt impedit in repudiandae. Voluptates saepe aut neque in! Facere, consectetur fugit. Libero fugit pariatur qui ab voluptas, optio ipsam dicta veritatis quasi illo expedita accusantium magnam reprehenderit iste nam non numquam saepe voluptatum! Repellat praesentium voluptatum qui repellendus? Eligendi dolorem sequi quasi adipisci corrupti quibusdam aperiam cupiditate voluptates sint distinctio ratione qui incidunt repudiandae in iste ut eveniet, esse architecto molestiae est porro. Perferendis inventore nostrum nihil corrupti quaerat fugiat aut laboriosam tempore. Quo nostrum enim, molestias esse atque, ipsa delectus ex commodi fugit dolore recusandae similique repudiandae! Vitae nihil laboriosam dolores eius saepe corrupti culpa quam accusamus necessitatibus fugit quos beatae, libero repellendus, modi ut expedita facere totam iusto cum accusantium? Non blanditiis asperiores reiciendis esse impedit molestias quaerat, voluptates ex totam consequuntur, veniam quos! Ex earum expedita unde modi sed sit perspiciatis. Necessitatibus, similique aliquam odio reiciendis, doloribus pariatur expedita distinctio nemo repellat natus ab laudantium iure aut amet blanditiis ea vero sunt itaque nisi libero doloremque dicta omnis, consectetur aliquid. Tenetur vel tempora perferendis possimus enim!</p>
+        </ion-row>
+
+       </ion-grid>
+
+
+    </ion-content>
+   
+    <ion-footer>
+    <ion-toolbar>
+       
+    <ion-tabs>
+      <ion-tab-bar class="ion-no-border" slot="bottom" position="bottom">
+        <ion-tab-button tab="home">
+          <ion-icon name="play-circle"></ion-icon>
+          Listen Now
+        </ion-tab-button>
+        <ion-tab-button tab="radio">
+          <ion-icon name="radio"></ion-icon>
+          Radio
+        </ion-tab-button>
+        <ion-tab-button tab="library">
+          <ion-icon name="library"></ion-icon>
+          Library
+        </ion-tab-button>
+        <ion-tab-button tab="search">
+          <ion-icon name="search"></ion-icon>
+          Search
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+       
+  </ion-toolbar>
+  </ion-footer>
+  </div>
+
