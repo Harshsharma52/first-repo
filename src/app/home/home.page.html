@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="secondary" >
+    <ion-title class="ion-text-center">
+      Login form
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <div class="inputs">
+  <ion-grid>
+    <ion-row>
+    <ion-col class="ion-align-self-center">
+      <ion-button [routerLink]="['/registration']" expand="block" size="large" color="primary">Register</ion-button>
+      <span class="divider">or</span>
+      <p style="text-align: center;">Already a user?</p>  
+      <ion-button [routerLink]="['/login']" expand="block" size="large" color="danger">Sign-Up</ion-button>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+</ion-content>
